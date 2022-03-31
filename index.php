@@ -1,6 +1,8 @@
 <?php
-# Configuration connection
+# Подключение конфигурации
 require_once "config.php";
-# Autoloader connection
+# Подключение автозагрузчика
 require_once "autoload.php";
 
+# Подгрузка файла маршрутизации
+require_once "route.php";
